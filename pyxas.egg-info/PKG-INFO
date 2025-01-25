@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: pyxas
+Version: 0.0.1
+Summary: A package for processing XAS data
+Author-email: Christian Dewey <cdewey@udel.edu>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
