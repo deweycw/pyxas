@@ -1,0 +1,164 @@
+Device:  SCLK1
+Channel: 1 Real time clock  1.0000
+Channel: 2 Total time       1.0000
+
+Device:  M0BOTSLT
+Channel: 1 Requested Pos.   1.4351
+Channel: 2 Achieved Pos.    1.4351
+
+Device:  M0TOPSLT
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    1.4288
+
+Device:  M0VERT1
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    5.9268
+
+Device:  M0VERT2
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    4.6920
+
+Device:  MONTOPSLT
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    0.8509
+
+Device:  MONBOTSLT
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    0.8509
+
+Device:  TABLEHORZ
+Channel: 1 Requested Pos.   -10.8540
+Channel: 2 Achieved Pos.    -10.8540
+
+Device:  DETHOR
+Channel: 1 Requested Pos.   200.0000
+Channel: 2 Achieved Pos.    200.0000
+
+Device:  M0VERT
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    5.3094
+
+Device:  M0PITCH
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    1.1122
+
+Device:  CRYSTAL
+Channel: 1 Requested Pos.   26.8829
+Channel: 2 Achieved Pos.    26.8829
+
+Device:  MONTRANS
+Channel: 1 Requested Pos.   197860.0000
+Channel: 2 Achieved Pos.    187930.0000
+
+Device:  MONDIAG
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    43.0451
+
+Device:  MONAPITCH
+Channel: 1 Requested Pos.   100314.0000
+Channel: 2 Achieved Pos.    100314.0000
+
+Device:  MONAROLL
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    1000.0000
+
+Device:  MONBPITCH
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    -894596.0000
+
+Device:  MONBROLL
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    13900.0000
+
+Device:  MONO
+Channel: 1 Requested Pos.   7139.9840
+Channel: 2 Achieved Pos.    7139.9840
+
+Device:  M0BEND
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    200.0000
+
+Device:  GIRDER
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    0.0000
+
+Device:  TABLEV1
+Channel: 1 Requested Pos.   91.8103
+Channel: 2 Achieved Pos.    91.8103
+
+Device:  TABLEV2
+Channel: 1 Requested Pos.   91.8103
+Channel: 2 Achieved Pos.    91.8103
+
+Device:  CRYOVERT
+Channel: 1 Requested Pos.   11.5000
+Channel: 2 Achieved Pos.    11.5000
+
+Device:  CRYOHOR
+Channel: 1 Requested Pos.   43.9700
+Channel: 2 Achieved Pos.    43.9700
+
+Device:  LYTLEVERT
+Channel: 1 Requested Pos.   128.9738
+Channel: 2 Achieved Pos.    128.9738
+
+Device:  LYTLEHOR
+Channel: 1 Requested Pos.   11.8411
+Channel: 2 Achieved Pos.    11.8411
+
+Device:  TABLEVERT
+Channel: 1 Requested Pos.   92.1100
+Channel: 2 Achieved Pos.    91.8103
+
+Device:  TABLEPITCH
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    0.0000
+
+Device:  S1HSPEAR
+Channel: 1 Requested Pos.   3.0000
+Channel: 2 Achieved Pos.    3.0000
+
+Device:  S1HSSRL
+Channel: 1 Requested Pos.   7.0000
+Channel: 2 Achieved Pos.    7.0000
+
+Device:  S1VBOTTOM
+Channel: 1 Requested Pos.   0.3050
+Channel: 2 Achieved Pos.    0.3050
+
+Device:  S1VTOP
+Channel: 1 Requested Pos.   0.6950
+Channel: 2 Achieved Pos.    0.6950
+
+Device:  S1HGAP
+Channel: 1 Requested Pos.   10.0000
+Channel: 2 Achieved Pos.    10.0000
+
+Device:  S1VGAP
+Channel: 1 Requested Pos.   1.0000
+Channel: 2 Achieved Pos.    1.0000
+
+Device:  S1HTRAN
+Channel: 1 Requested Pos.   2.0000
+Channel: 2 Achieved Pos.    2.0000
+
+Device:  S1VTRAN
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    0.1950
+
+Device:  DIGITVERT
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    37.9863
+
+Device:  ELEVATOR
+Channel: 1 Requested Pos.   4.7863
+Channel: 2 Achieved Pos.    4.7863
+
+Device:  PIPSVERT
+Channel: 1 Requested Pos.   0.0000
+Channel: 2 Achieved Pos.    -0.0137
+
+Device:  LYTLEFOCUS
+Channel: 1 Requested Pos.   -9.9997
+Channel: 2 Achieved Pos.    -9.0693
+

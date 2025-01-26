@@ -3,7 +3,7 @@ from pyxas.background import Background as bg
 
 if __name__ ==  '__main__':
     
-    scan = Scan(data_file="/Users/christiandewey/Code/pyxas/tests/data/GP17_station5_19119_1cm_015_A.002")
+    #scan = Scan(data_file="/Users/christiandewey/Code/pyxas/tests/data/GP17_station5_19119_1cm_015_A.002")
 
     #scan.plot_mu()
 
@@ -13,7 +13,7 @@ if __name__ ==  '__main__':
 
     #scan.plot_each_channel()
 
-    group = ScanGroup(directory="/Users/christiandewey/Code/pyxas/tests/data/", base_name="GP17_station5_19119_1cm_015_A.")
+    group = ScanGroup(directory="/Users/christiandewey/Code/pyxas/tests/data/Station5/15cm/", base_name="GP17_station5_19119_15cm_023_A.")
 
     group.drop_bad_channels(channels_to_drop=['SCA1_5','SCA1_25'])
 
@@ -21,6 +21,7 @@ if __name__ ==  '__main__':
 
     group.plot_averaged_mu()
 
+    group.plot_SN_n_scans(n_scans=[4, 5, 6])
     group.subtract_postedge(post_edge_range_E=(7155,8000))
     group.subtract_preedge(pre_edge_range_E=(6800,7090))
 

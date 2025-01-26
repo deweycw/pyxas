@@ -73,7 +73,7 @@ class Scan:
         fig, ax = plt.subplots()
         E = self.data_array[:,self.columns['Requested Energy']]
         I0 = self.data_array[:,self.columns['I0']]
-        mu = self.summed_SCA1() / I0
+        mu = self.summed_SCA1 / I0
         ax.plot(E, mu)
         if title != None:
             ax.set_title(title)
@@ -105,6 +105,36 @@ class Scan:
 
             del self.columns[bad_channel]
             del self.ind_cols[i_drop]
+
+
+    def plot_SN(self, count_type = 'SCA1', title = '', n_scans = [4], E_plotting_range = (7135,8000)):
+
+        count_cols = self._get_count_cols(count_type)  
+        
+        self.element_signal_array = self.data_array[:,count_cols[0]:count_cols[-1]]
+
+        self.scan_E = self.data_array[:,self.columns['Requested Energy']]
+        self.scan_I0 = self.data_array[:,self.columns['I0']]
+        self.scan_signal_std_by_element = self.element_signal_array.copy()
+
+        I0 = self.data_array[:,self.columns['I0']]
+        self.scan_signal_std = np.std(self.element_signal_array, axis =1) #/ I0
+
+        mu = np.average(self.summed_SCA1 )    
+        sn_1 = mu / self.scan_signal_std 
+
+        E_range = np.where((self.scan_E > E_plotting_range[0]) & (self.scan_E < E_plotting_range[1]))
+
+        n_plots = len(n_scans) + 1
+        n_scans = [1] + n_scans
+        for n in n_scans:
+            plt.plot(self.scan_E[E_range], sn_1[E_range] * np.sqrt(n+1), label = n)
+            plt.title(title)
+            plt.ylabel('S/N')
+            plt.xlabel('E (eV)')
+        plt.legend(title = '# Scans', frameon = False)
+        
+        plt.show()
 
 
 class ScanGroup(Scan):
@@ -187,4 +217,12 @@ class ScanGroup(Scan):
         ax.set_title(self.base_name.replace('.',''))
         plt.show()
 
-        print(self.mu_average/self.mu_bg_subtracted)
+
+    def plot_SN_n_scans(self, n_scans):
+        
+        scans = list(self.grouped_scans.values())
+        files = list(self.grouped_scans.keys())
+
+        scans[0].plot_SN(title = files[0].split('.')[0], n_scans = n_scans, count_type = 'SCA1')
+            
+

@@ -1,0 +1,39 @@
+HOLDER A
+
+ELEVATOR
+1 (top): 4.786
+2:       11.034
+3:       18.349
+4:       25.406
+
+CRYOHOR:
+x 43.970
+
+----
+
+HOLDER B
+
+ELEVATOR
+1: 4.308
+2: 11.365
+3: 18.790
+4: EMPTY
+
+PIPSVERT (for sample alignment)
+130.00
+
+DETHOR
+240.000
+
+----
+
+HOLDER C
+
+ELEVATOR
+1: 4.345
+2: 11.475
+3: 18.459
+4: 25.553
+
+DETHOR:
+240.000

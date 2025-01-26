@@ -1,0 +1,4 @@
+Sample,File Name,Region,Detector,MOTOR ELEVATOR,Num Scans,Sample Information
+A2,GP17_station5_19119_3cm,Fek_13_EXAFS.rgn,xsp32.det,11.034,6,"Holder A Location 2. 1 x 10 beam. Gains 5e5 5e8 1e9 2e9."
+A3,GP17_station5_19119_5cm,Fek_13_EXAFS.rgn,xsp32.det,18.349,6,"Holder A Location 3. 1 x 10 beam. Gains 5e5 5e8 1e9 2e9."
+A4,GP17_station5_19119_7cm,Fek_13_EXAFS.rgn,xsp32.det,25.406,6,"Holder A Location 4. 1 x 10 beam. Gains 5e5 5e8 1e9 2e9."
